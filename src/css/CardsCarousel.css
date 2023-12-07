@@ -1,0 +1,126 @@
+.horizontal-snap {
+    margin: 0 auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+    height: 250px;
+    padding: 1rem;
+    max-width: 480px;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    position: inherit;
+    z-index: 2000;
+}
+
+.horizontal-snap > div {
+    scroll-snap-align: center;
+}
+
+.horizontal-snap::-webkit-scrollbar {
+    display: none;
+}
+
+.img-container {
+    width: 90vw;
+    position: relative;
+}
+
+.show-details {
+    width: 150px;
+    background: white;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    top: -6px;
+    height: 48px;
+    border-radius: 6px 6px 0px 0px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    color: #01d167;
+}
+
+.horizontal-snap img.test {
+    width: 90vw;
+    height: 200px;
+    max-width: none;
+    border-radius: 1rem;
+    position: absolute;
+    top: 20px;
+}
+
+.horizontal-snap .card-ui {
+    width: 90vw;
+    height: 200px;
+    max-width: none;
+    border-radius: 1rem;
+    position: absolute;
+    top: 20px;
+}
+
+.indicator {
+    margin-right: 4px;
+}
+.indicator.active {
+    height: 8px;
+    width: 16px;
+    background: #01d167;
+    border-radius: 8px;
+}
+
+.indicator.inactive {
+    background: darkgrey;
+    border-radius: 8px;
+    height: 8px;
+    width: 8px;
+}
+
+.card-char {
+    width: 50px;
+    letter-spacing: 2px;
+    margin-right: 16px;
+}
+
+.cvv-char {
+    font-size: 24px;
+    line-height: 0px;
+    margin-top: 8px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+
+.card-ui {
+    padding: 24px;
+}
+
+.card-ui.card-frozen {
+    opacity: 0.6;
+    filter: blur(1px);
+}
+
+.card-details {
+    color: white;
+    padding-top: 16px;
+    font-family: Open sans;
+}
+
+.card-details .holder {
+    font-size: 22px;
+}
+
+.card-details .number {
+    padding-top: 16px;
+}
+
+.card-details .creds {
+    display: flex;
+    padding-top: 8px;
+    font-size: 13px;
+}
+
+.card-details .cvv {
+    margin-left: 40px;
+}

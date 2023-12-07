@@ -1,0 +1,81 @@
+.card-info-header {
+    display: flex;
+    align-items: baseline;
+    height: 116px;
+    background: #edf3ff;
+    border-radius: 30px 30px 0px 0px;
+    padding-top: 16px;
+}
+
+.content-container {
+    height: 100px;
+    align-items: center;
+    padding: 10px 0px;
+    border: 1px solid #f5f5f5;
+}
+
+.item-origin {
+    font-weight: 500;
+}
+
+.item-date {
+    color: #aaaaaa;
+}
+
+.item.message {
+    color: #325baf;
+}
+
+.item-amount {
+    font-weight: 600;
+}
+
+.amount-credit {
+    color: #01d167;
+}
+
+.trans-img-container {
+    background: rgb(50, 91, 175);
+    height: 20px;
+    width: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.accordion-header {
+    height: 72px;
+    width: 85vw;
+    border-radius: 8px;
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 0px 8px #0000000a;
+    margin: auto;
+    margin-top: 16px;
+    background-color: #fafcff;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+}
+
+.accordion-title {
+    color: #0c365a;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.accordion-content {
+    color: black;
+    width: 85vw;
+    margin: auto;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+}
+
+.view-all {
+    background: #edfff5;
+    border: 1px solid #ddffec;
+    color: #01d167;
+    height: 60px;
+    font-weight: 600;
+}

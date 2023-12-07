@@ -1,0 +1,25 @@
+.footer-container {
+    position: fixed;
+    bottom: 0px;
+    z-index: 9999;
+    width: 100%;
+}
+
+.footer-map {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 56px;
+    background: white;
+    padding-top: 8px;
+    box-shadow: 0px -3px 6px #00000014;
+}
+
+.footer-item {
+    font-size: 9px;
+    color: #dddddd;
+}
+
+.footer-item-selected {
+    color: black;
+}
